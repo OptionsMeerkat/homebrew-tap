@@ -2,6 +2,6 @@
 
     brew tap optionsmeerkat/tap
     brew trust --tap optionsmeerkat/tap
-    brew install optchain
+    brew install optionsmeerkat/tap/optchain
 
 More at https://optionsmeerkat.com.
