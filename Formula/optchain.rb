@@ -1,4 +1,4 @@
-# The Homebrew formula, as scripts/brew-release.sh fills it in and
+# The Homebrew formula, as scripts/release.sh fills it in and
 # publishes it to the public tap (OptionsMeerkat/homebrew-tap). The @…@
 # fields name the release: its version and, for each platform, the
 # binary's download (a release file of the tap) and SHA-256.
@@ -8,27 +8,27 @@
 class Optchain < Formula
   desc "Options Meerkat: US option chains, implied volatility, and a terminal dashboard"
   homepage "https://optionsmeerkat.com"
-  version "0.1.0.1236"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/OptionsMeerkat/homebrew-tap/releases/download/v0.1.0.1236/optchain-0.1.0.1236-aarch64-apple-darwin.tar.gz"
-      sha256 "05011fb0fe1bba8477fa16036ee3a332839dcc7f7a37135b3c5ba49794348530"
+      url "https://github.com/OptionsMeerkat/homebrew-tap/releases/download/v0.2.0/optchain-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "8eccabf964789c575037d781076f365d7656bc3502aff58ae28c552fb98f60c9"
     end
     on_intel do
-      url "https://github.com/OptionsMeerkat/homebrew-tap/releases/download/v0.1.0.1236/optchain-0.1.0.1236-x86_64-apple-darwin.tar.gz"
-      sha256 "aad2f7cf6af2f92f64a769a913fb4e4132bcb63d64f1ecbd0934fbc28609ceb6"
+      url "https://github.com/OptionsMeerkat/homebrew-tap/releases/download/v0.2.0/optchain-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a106e69c832316f0a78ce6fd65b33d9f2bf0a71bfcb25dd3cade37a40c441c84"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/OptionsMeerkat/homebrew-tap/releases/download/v0.1.0.1236/optchain-0.1.0.1236-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0014569f0b1a3351bfda29ac6ed6426ad29c07f2f8d8a27d19d91aeec50d7a9c"
+      url "https://github.com/OptionsMeerkat/homebrew-tap/releases/download/v0.2.0/optchain-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e0b60ebcea9be2f4d5f9c144294a916a41fb931d8e6b6eb0289341d18bb74e79"
     end
     on_intel do
-      url "https://github.com/OptionsMeerkat/homebrew-tap/releases/download/v0.1.0.1236/optchain-0.1.0.1236-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "97f0cb276e2f0759dce222839ab037a5a56c18e57dd7bfb0be5c326f53715653"
+      url "https://github.com/OptionsMeerkat/homebrew-tap/releases/download/v0.2.0/optchain-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bb9ecb607b9e1f04ab4b49073a34ab25403f86b841e5a64eebfe8e879d2f952f"
     end
   end
 
